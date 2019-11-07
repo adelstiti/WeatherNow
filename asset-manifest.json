@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WeatherNow/static/css/main.d80221f4.chunk.css",
-    "main.js": "/WeatherNow/static/js/main.4c472851.chunk.js",
-    "main.js.map": "/WeatherNow/static/js/main.4c472851.chunk.js.map",
+    "main.js": "/WeatherNow/static/js/main.1022edef.chunk.js",
+    "main.js.map": "/WeatherNow/static/js/main.1022edef.chunk.js.map",
     "runtime~main.js": "/WeatherNow/static/js/runtime~main.064b7f30.js",
     "runtime~main.js.map": "/WeatherNow/static/js/runtime~main.064b7f30.js.map",
     "static/js/2.68d5fd6c.chunk.js": "/WeatherNow/static/js/2.68d5fd6c.chunk.js",
     "static/js/2.68d5fd6c.chunk.js.map": "/WeatherNow/static/js/2.68d5fd6c.chunk.js.map",
     "index.html": "/WeatherNow/index.html",
-    "precache-manifest.4ba52110f265cc839e23a1bcc511fb82.js": "/WeatherNow/precache-manifest.4ba52110f265cc839e23a1bcc511fb82.js",
+    "precache-manifest.ed7cfa7b348e3fbfa05f6df91b50110a.js": "/WeatherNow/precache-manifest.ed7cfa7b348e3fbfa05f6df91b50110a.js",
     "service-worker.js": "/WeatherNow/service-worker.js",
     "static/css/main.d80221f4.chunk.css.map": "/WeatherNow/static/css/main.d80221f4.chunk.css.map"
   }
