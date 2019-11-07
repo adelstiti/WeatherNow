@@ -7,6 +7,7 @@ import Search from './components/Search';
 
 class App extends Component {
   
+  weathkey = '03f3617f4d714b3fb08123937190711';
   state = {
     temperatureC : '',
     place : '',
@@ -23,7 +24,7 @@ class App extends Component {
     e.preventDefault();
     const place = e.target.elements.place.value;
     if(place){
-      const api = await fetch(`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=09013dfb701d4ccbb87155920192208&q=${place}&format=json`);
+      const api = await fetch(`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=${weathkey}&q=${place}&format=json`);
       const data = await api.json();
       if(data.data.current_condition){
       this.setState({
