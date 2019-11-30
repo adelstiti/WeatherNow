@@ -31,7 +31,7 @@ class App extends Component {
         temperatureC : data.data.current_condition[0].temp_C,
         temperatureF : data.data.current_condition[0].temp_F,
         windspeed : data.data.current_condition[0].windspeedKmph,
-        time : data.data.current_condition[0].observation_time,
+        time : data.data.weather[0].date,
         place : data.data.request[0].query,
         description : data.data.current_condition[0].weatherDesc[0].value,
         weatherIconUrl : data.data.current_condition[0].weatherIconUrl[0].value,
