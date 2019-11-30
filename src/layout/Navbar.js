@@ -10,7 +10,6 @@ export class Navbar extends Component {
             <div>
                 <h1 className="Title">
                 <i className="fas fa-cloud-sun"></i>{this.props.title} </h1>
-                
             </div>
         )
     }

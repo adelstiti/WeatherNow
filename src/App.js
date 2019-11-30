@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './layout/Navbar';
 import Places from './places/Places';
 import Search from './components/Search';
+import {BrowserRouter} from 'react-router-dom'
 
 
 class App extends Component {
@@ -100,6 +101,7 @@ class App extends Component {
            >
 
                 <Search getWeather={this.getWeather} / >
+                <BrowserRouter>
                 <Places place={this.state.place}  
                         temperatureC={this.state.temperatureC} 
                         temperatureF={this.state.temperatureF} 
@@ -108,6 +110,7 @@ class App extends Component {
                         weatherIconUrl={this.state.weatherIconUrl} 
                         error={this.state.error} 
                         />
+                        </BrowserRouter>
       
         </div>
         </div>
