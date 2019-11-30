@@ -26,7 +26,7 @@ import {Link,withRouter} from 'react-router-dom'
                 {props.time && <h4>{props.time}</h4> } 
                 {props.weatherIconUrl && <img src={props.weatherIconUrl} alt='' className='round-img' style={{ width : '60px'}}/> } 
                 <h1 className='elnumero'>  {weath.temperature}
-                    <Link to='/WeatherNow'  style={isActive(props.history,"/WeatherNow")}  onClick={() => setweath({...weath,temppDes:'  °C',temperature:props.temperatureC})}>  °C</Link> |
+                    <Link to='/WeatherNow/'  style={isActive(props.history,"/WeatherNow")}  onClick={() => setweath({...weath,temppDes:'  °C',temperature:props.temperatureC})}>  °C</Link> |
                     <Link to="/WeatherNoow" style={isActive(props.history,"/WeatherNoow")}  onClick={() =>setweath({...weath,temppDes:'  °F',temperature:props.temperatureF})}>  °F</Link>
                 </h1> 
 
